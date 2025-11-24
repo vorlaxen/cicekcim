@@ -1,24 +1,4 @@
-import React, { useState } from 'react';
-import { Heart, ShoppingBag, Menu, X, Sparkles, Star } from 'lucide-react';
-
 const Home = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
-  const [favorites, setFavorites] = useState([]);
-
-  const products = [
-    { id: 1, name: 'Pembe Güller Buketi', price: '₺450', image: '🌹', desc: 'Romantik pembe güller' },
-    { id: 2, name: 'Orkide Koleksiyonu', price: '₺680', image: '🌺', desc: 'Zarif beyaz orkideler' },
-    { id: 3, name: 'Gerbera Bahçesi', price: '₺380', image: '🌸', desc: 'Renkli gerbera çiçekleri' },
-    { id: 4, name: 'Lale Çayırı', price: '₺520', image: '🌷', desc: 'Taptaze bahar laleleri' },
-    { id: 5, name: 'Papatya Serinliği', price: '₺290', image: '🌼', desc: 'Doğal beyaz papatyalar' },
-    { id: 6, name: 'Çiçek Yağmuru', price: '₺850', image: '💐', desc: 'Premium karışık buket' },
-  ];
-
-  const toggleFavorite = (id) => {
-    setFavorites(prev =>
-      prev.includes(id) ? prev.filter(f => f !== id) : [...prev, id]
-    );
-  };
 
   return (
     <div className="min-h-screen bg-white">
