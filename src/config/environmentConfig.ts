@@ -11,6 +11,7 @@ function must<T>(value: T | undefined | '', name: string): T {
 }
 
 export const AppConfig = {
+  appDomain: must(env.VITE_APP_DOMAIN, "X"),
   siteName: siteName
 };
 
