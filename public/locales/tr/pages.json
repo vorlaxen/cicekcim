@@ -1,0 +1,20 @@
+{
+  "status": {
+    "404": {
+      "code": "404",
+      "title": "Sayfa Bulunamadı",
+      "subtitle": "Hata! Sayfa dijital boşlukta kayboldu",
+      "description1": "Aradığınız sayfa tanınamayacak şekilde şifrelenmiş veya güvenli bir konuma taşınmış olabilir.",
+      "description2": "Endişelenmeyin, sistemler normal çalışıyor. Sadece aradığınız sayfa bu değil.",
+      "button": "Güvenli Bölgeye Dön"
+    },
+    "403": {
+      "code": "403",
+      "title": "Erişim Reddedildi",
+      "subtitle": "Bu sayfaya erişim izniniz yok.",
+      "description1": "Bu sayfayı görüntülemek için gerekli izinlere sahip değilsiniz.",
+      "description2": "Bunun bir hata olduğunu düşünüyorsanız, yöneticinizle iletişime geçin.",
+      "button": "Güvenliğe Dön"
+    }
+  }
+}

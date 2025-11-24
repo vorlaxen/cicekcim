@@ -1,0 +1,20 @@
+{
+  "status": {
+    "404": {
+      "code": "404",
+      "title": "Page Not Found",
+      "subtitle": "Oops! The page got lost in the digital void",
+      "description1": "The page you’re looking for might have been encrypted beyond recognition or moved to a secure location.",
+      "description2": "No worries, the systems are running normally. This just isn’t the page you were looking for.",
+      "button": "Return to Safe Zone"
+    },
+    "403": {
+      "code": "403",
+      "title": "Access Denied",
+      "subtitle": "You do not have permission to access this page.",
+      "description1": "You don’t have the required permissions to view this page.",
+      "description2": "If you believe this is a mistake, contact your administrator.",
+      "button": "Return to Safety"
+    }
+  }
+}

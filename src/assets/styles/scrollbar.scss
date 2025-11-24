@@ -1,0 +1,31 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: black #fef2f2;
+}
+
+body.dark * {
+  scrollbar-color: black #111111;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-red-100 dark:bg-neutral-950;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  @apply bg-red-500 dark:bg-neutral-700;
+  transition: background-color 150ms ease-in-out;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-red-600 dark:bg-neutral-600;
+}
+
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
