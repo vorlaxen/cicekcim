@@ -14,10 +14,10 @@ const Contact = () => {
             {/* Main Content */}
             <div className="flex-1 w-full px-4 py-12">
                 <div className="max-w-screen-xl mx-auto">
-                    <div className="grid md:grid-cols-2 gap-8">
+                    <div className="grid md:grid-cols-2 gap-8 h-[500px]">
                         {/* Map Section */}
-                        <div className="relative overflow-hidden rounded-2xl shadow-2xl h-[500px] group">
-                            <div className="absolute inset-0 bg-gradient-to-t from-rose-500/20 to-transparent z-10 pointer-events-none"></div>
+                        <div className="relative overflow-hidden rounded-2xl shadow-2xl h-full group">
+                            <div className="absolute inset-0 bg-gradient-to-t from-rose-500/10 to-transparent z-10 pointer-events-none"></div>
                             <iframe
                                 title="Google Maps"
                                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1501.0884186709404!2d36.72831438755939!3d41.19611808564947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x408807b74fe883a3%3A0x6c070692354a63a0!2zw4dpw6dla3NlcGV0aQ!5e0!3m2!1str!2str!4v1764013632605!5m2!1str!2str"
@@ -29,7 +29,7 @@ const Contact = () => {
                         </div>
 
                         {/* Contact Info Section */}
-                        <div className="flex flex-col gap-6">
+                        <div className="flex flex-col h-full gap-6">
                             {/* Contact Cards */}
                             <div className="bg-white rounded-2xl shadow-xl p-8 hover:shadow-2xl transition-all duration-300 border border-rose-100">
                                 <h2 className="text-3xl font-bold text-gray-800 mb-6 flex items-center gap-2">
