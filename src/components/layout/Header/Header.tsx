@@ -45,7 +45,7 @@ const Header = ({ }: HeaderProps) => {
       </div>
 
       {/* Promo Banner */}
-      <div className="flex items-center justify-center text-center bg-pink-50/80 dark:bg-pink-900/40 backdrop-blur-sm py-1.5">
+      <div className="flex items-center justify-center text-center bg-pink-500/20 dark:bg-pink-900/40 backdrop-blur-sm py-1.5">
         <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold text-pink-600 dark:text-pink-300 leading-snug">
           500 TL'lik siparişinize <span className="text-pink-500 dark:text-pink-400">+%50 İndirim</span>!
         </h2>
