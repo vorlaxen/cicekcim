@@ -4,7 +4,7 @@ const Contact = () => {
     return (
         <div className="flex flex-col w-full min-h-screen bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50">
             {/* Hero Section */}
-            <div className="w-full bg-gradient-to-r from-rose-500 to-pink-600 text-white py-16 px-4">
+            <div className="w-full bg-gradient-to-r from-rose-500 to-pink-600 text-white py-8 px-4">
                 <div className="max-w-screen-xl mx-auto">
                     <h1 className="text-5xl font-bold mb-4">Bizimle İletişime Geçin</h1>
                     <p className="text-xl text-rose-100">Her türlü soru ve öneriniz için buradayız</p>

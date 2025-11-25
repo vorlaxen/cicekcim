@@ -6,10 +6,6 @@ const Home = () => {
       <section className="relative overflow-hidden py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="text-center space-y-6 relative z-10">
-            <div className="inline-flex items-center space-x-2 bg-gradient-to-r from-pink-500 to-rose-500 text-white px-6 py-2 rounded-full text-sm font-semibold shadow-lg">
-              <span>Yeni Koleksiyon Çıktı!</span>
-            </div>
-
             <h2 className="text-5xl md:text-7xl font-bold py-4 bg-gradient-to-r from-pink-600 via-rose-600 to-red-600 bg-clip-text text-transparent leading-tight">
               Her Anınızı<br />Çiçeklerle Süsleyin
             </h2>
