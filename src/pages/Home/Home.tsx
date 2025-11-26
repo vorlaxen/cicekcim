@@ -2,6 +2,17 @@ const Home = () => {
 
   return (
     <div className="min-h-screen bg-white">
+
+      {/* Promo Banner */}
+      <section className="relative overflow-hidden">
+        <div className="flex items-center justify-center text-center bg-pink-500/20 dark:bg-pink-900/40 backdrop-blur-sm py-1.5">
+          <h2 className="text-xl md:text-2xl lg:text-3xl font-extrabold text-pink-600 dark:text-pink-300 leading-snug">
+            500 TL'lik siparişinize <span className="text-pink-500 dark:text-pink-400">+%50 İndirim</span>!
+          </h2>
+        </div>
+
+      </section>
+
       {/* Hero Section */}
       <section className="relative overflow-hidden py-20 px-4">
         <div className="max-w-7xl mx-auto">
